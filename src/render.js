@@ -15,7 +15,7 @@ function getWeatherIcon(iconKey) {
   return weatherIcons[iconKey];
 }
 
-export function buildForecastCard(day, index) {
+function buildForecastCard(day, index) {
   const dayLabel = getDayLabel(index, day.time);
   const iconSrc = getWeatherIcon(day.icon);
 

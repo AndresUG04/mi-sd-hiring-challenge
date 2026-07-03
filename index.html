@@ -3,6 +3,7 @@
   <head>
     <title>Movable Ink</title>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles/index.css" />
   </head>
   <body>
     <main class="app">
@@ -23,9 +24,11 @@
 
       <section class="forecast-results" id="forecast-results" hidden></section>
 
-      <p id="loading-message" class="loading-message">Loading forecast...</p>
+      <p id="loading-message" class="loading-message" hidden>
+        Loading forecast...
+      </p>
 
-      <p id="error-message" class="error-message"></p>
+      <p id="error-message" class="error-message" hidden></p>
     </main>
   </body>
   <script src="src/app.js"></script>
